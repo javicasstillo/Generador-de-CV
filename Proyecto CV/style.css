@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#recepcion{
+    padding: 10px;
+    height: 130vh;
+    background-color:rgba(40, 64, 203, 0.676);
+    display: flex;
+}
+
+.container__general_recepcion{
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.primer__container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container__inputs_dp{
+    border-radius: 20px;
+    border: solid 2px rgba(24, 48, 187, 0.823);
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    width: 300px;
+}
+
+.tittle__dp{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.avatar__container{
+    display: flex;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+
+}
+
+.img {
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.button__container{
+    display: flex;
+    justify-content: center;
+}
+
+#cargar__foto{
+    margin: auto;    
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgba(24, 48, 187, 0.823);
+    color: white;
+    border: none;
+
+}
+
+#cargar__foto:hover{
+    cursor: pointer;
+}
+
+.paragraph__dp{
+    color:rgba(0, 0, 0, 0.521);
+}
+
+.input__dp{
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 3px;
+    background-color: rgba(24, 48, 187, 0.823);
+    color: white;
+    width: 200px;
+    font-size: .9rem;
+}
+
+.input__dp:focus{
+outline: none;
+}
+
+.container__contactoYhabilidades{
+    display: flex;
+    gap: 20px;
+}
+
+.container__inputs_contacto{
+    border-radius: 20px;
+    border: solid 2px rgba(24, 48, 187, 0.823);
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    width: 300px;
+    
+}
+
+.tittle__contacto{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.paragraph__contacto{
+    color:rgba(0, 0, 0, 0.521);
+}
+
+.input__contacto{
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 3px;
+    background-color: rgba(24, 48, 187, 0.823);
+    color: white;
+    width: 200px;
+    font-size: .9rem;
+}
+
+.input__contacto:focus{
+    outline: none;
+}
+
+.tittle__habilidades{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.container__inputs_habilidades{
+    border-radius: 20px;
+    border: solid 2px rgba(24, 48, 187, 0.823);
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    width: 300px;
+    
+    
+}
+
+.container__habilidades{
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.habilidades123{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.paragraph__habilidad{
+    color:rgba(0, 0, 0, 0.521);
+}
+
+.input__habilidad{
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 3px;
+    background-color: rgba(24, 48, 187, 0.823);
+    color: white;
+    width: 100px;
+    font-size: .9rem;
+}
+
+.input__habilidad:focus{
+    outline: none;
+}
+
+.habilidades456{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.container__inputs_experiencia{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tittle__experiencia{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.empresa{
+    border-radius: 20px;
+    border: solid 2px rgba(24, 48, 187, 0.823);
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    width: 150px;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+.paragraph__empresa{
+    color:rgba(0, 0, 0, 0.521);
+}
+
+.input__experiencia{
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 3px;
+    background-color: rgba(24, 48, 187, 0.823);
+    color: white;
+    width: 100px;
+    font-size: .9rem;
+}
+
+.input__experiencia:focus{
+    outline: none;
+}
+.container__empresa{
+    display: flex;
+    gap: 20px;
+}
+
+#generar__cv{
+    margin: auto;    
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(43, 226, 76);
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+#generar__cv:hover{
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+#cv{
+    padding: 0px 60px;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.franja__celeste_container{
+    background-color: rgba(40, 64, 203, 0.676);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.avatar__container_cv{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+
+}
+
+.img2{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 4px white;
+}
+
+.contacto__container_cv{
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle__contacto_cv{
+    text-align: left;
+}
+
+.spanContacto__container_cv{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+hr{
+    padding: 1px;
+    background-color: white;
+}
+
+.habilidades__container_cv{
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle__habilidades_cv{
+    text-align: left;
+}
+
+.spanHabilidades__container_cv{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.espacio__vacio_container{
+    height: 200px;
+}
+
+.franja__blanca_container{
+    padding: 50px 0px;
+}
+
+.dp__container_cv{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(24, 48, 187, 0.823);
+    color: white;
+}
+
+.nombreYapellido__container_cv{
+    display: flex;
+}
+
+#span__nombre{
+    font-size: 5rem;
+}
+
+#span__apellido{
+    font-size: 5rem;
+}
+
+#span__edad{
+    font-size: 2rem;
+}
+
+.acercaDeMi__container_cv{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tittle__adm{
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+#paragraph__adm{
+    max-width: 350px;
+    text-align: justify;
+}
+
+.img__click_aqui{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    transform: rotate(-45deg);
+}
+
+.hr__container{
+    padding: 0px 20px;
+}
+
+.hr__adm{
+    background-color: black;
+    padding: .7px;
+    width: 355px;
+}
+
+#experienciaLaboral__container_cv{
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.tittle__experienciaLaboral{
+    text-align: left;
+    font-size: 1.5rem;
+    
+}
+
+.span__empresa_container{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#span__empresa1{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#span__empresa2{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#span__empresa3{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#span__empresa4{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.años__container{
+    display: flex;
+}
+
+#button__container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#descargar{   
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(43, 226, 76);
+    color: white;
+    border: none;
+}
+
+#descargar:hover{
+    cursor: pointer;
+}

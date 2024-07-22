@@ -1,0 +1,2 @@
+1) que el usuario pueda modificar el "sobre mi"
+2) que el usuario pueda elegir cuantos empleos tuvo

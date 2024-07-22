@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <section id="recepcion">
+
+        <div class="container__general_recepcion">
+
+            <div class="primer__container">
+
+                <div class="container__inputs_dp">
+                    <h3 class="tittle__dp">Datos Personales</h3>
+
+                    <div class="avatar__container">
+                        <img id="foto__perfil" class="img" src="./hombre2.png">
+                    </div>
+                    
+                    <div class="button__container">
+                        <button id="cargar__foto">Cargar Foto</button>
+                    </div>
+                    
+                    <input type="file" id="input__cargarFoto" accept="image/*" style="display: none;">
+
+                    <p class="paragraph__dp">Primer Nombre:</p>
+                    <input type="text" class="input__dp" id="nombre">
+                    <p class="paragraph__dp">Apellido:</p>
+                    <input type="text" class="input__dp" id="apellido">
+                    <p class="paragraph__dp">Edad:</p>
+                    <input type="number" class="input__dp" id="edad">
+                </div>
+
+                <div class="container__contactoYhabilidades">
+                    <div class="container__inputs_contacto">
+                        <h3 class="tittle__contacto">Contacto</h3>
+                        <p class="paragraph__contacto">Nro Celular:</p>
+                        <input type="number" class="input__contacto" id="celular">
+                        <p class="paragraph__contacto">Correo Electronico:</p>
+                        <input type="text" class="input__contacto" id="correo">
+                        <p class="paragraph__contacto">Domicilio:</p>
+                        <input type="text" class="input__contacto" id="domicilio"> 
+                    </div>
+                
+                    <div class="container__inputs_habilidades">
+                        <h3 class="tittle__habilidades">Habilidades</h3>
+                        <div class="container__habilidades">
+                            <div class="habilidades123">
+                                <p class="paragraph__habilidad">Habilidad 1:</p>
+                                <input type="text" class="input__habilidad" id="habilidad1">
+                                <p class="paragraph__habilidad">Habilidad 2:</p>
+                                <input type="text" class="input__habilidad" id="habilidad2">
+                                <p class="paragraph__habilidad">Habilidad 3:</p>
+                                <input type="text" class="input__habilidad" id="habilidad3">
+                            </div>
+        
+                            <div class="habilidades456">
+                                <p class="paragraph__habilidad">Habilidad 4:</p>
+                                <input type="text" class="input__habilidad" id="habilidad4">
+                                <p class="paragraph__habilidad">Habilidad 5:</p>
+                                <input type="text" class="input__habilidad" id="habilidad5">
+                                <p class="paragraph__habilidad">Habilidad 6:</p>
+                                <input type="text" class="input__habilidad" id="habilidad6">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container__inputs_experiencia">
+                <h3 class="tittle__experiencia">Experiencia Laboral</h3>
+                
+                <div class="container__empresa">
+                    <div class="empresa">
+                        <h3>Primera Empresa</h3>
+                        <p class="paragraph__empresa">Empresa:</p>
+                        <input type="text" class="input__experiencia" id="empresa1">
+                        <p class="paragraph__empresa">Cargo:</p>
+                        <input type="text" class="input__experiencia" id="cargo1">
+                        <p class="paragraph__empresa">Año de Inicio:</p>
+                        <input type="number" class="input__experiencia" id="añoInicio1">
+                        <p class="paragraph__empresa">Año final:</p>
+                        <input type="number" class="input__experiencia" id="añoFin1">
+                    </div>
+    
+                    
+                    <div class="empresa">
+                        <h3>Segunda Empresa</h3>
+                        <p class="paragraph__empresa">Empresa:</p>
+                        <input type="text" class="input__experiencia" id="empresa2">
+                        <p class="paragraph__empresa">Cargo:</p>
+                        <input type="text" class="input__experiencia" id="cargo2">
+                        <p class="paragraph__empresa">Año de Inicio:</p>
+                        <input type="number" class="input__experiencia" id="añoInicio2">
+                        <p class="paragraph__empresa">Año final:</p>
+                        <input type="number" class="input__experiencia" id="añoFin2">
+                    </div>
+    
+                    
+                    <div class="empresa">
+                        <h3>Tercera Empresa</h3>
+                        <p class="paragraph__empresa">Empresa:</p>
+                        <input type="text" class="input__experiencia" id="empresa3">
+                        <p class="paragraph__empresa">Cargo:</p>
+                        <input type="text" class="input__experiencia" id="cargo3">
+                        <p class="paragraph__empresa">Año de Inicio:</p>
+                        <input type="number" class="input__experiencia" id="añoInicio3">
+                        <p class="paragraph__empresa">Año final:</p>
+                        <input type="number" class="input__experiencia" id="añoFin3">
+                    </div>
+    
+                    
+                    <div class="empresa">
+                        <h3>Cuarta Empresa</h3>
+                        <p class="paragraph__empresa">Empresa:</p>
+                        <input type="text" class="input__experiencia" id="empresa4">
+                        <p class="paragraph__empresa">Cargo:</p>
+                        <input type="text" class="input__experiencia" id="cargo4">
+                        <p class="paragraph__empresa">Año de Inicio:</p>
+                        <input type="number" class="input__experiencia" id="añoInicio4">
+                        <p class="paragraph__empresa">Año final:</p>
+                        <input type="number" class="input__experiencia" id="añoFin4">
+                    </div>
+                </div>
+            </div>
+            <div class="button__container">
+                <button id="generar__cv">Generar CV</button>
+            </div>
+        </div>
+
+       
+    </section>
+
+    <section id="cv">
+
+        <div class="franja__celeste_container">
+
+            <div class="avatar__container_cv">
+                <img id="foto__perfil_final" class="img2">
+            </div>
+
+            <div class="contacto__container_cv">
+                <h3 class="tittle__contacto_cv">CONTACTO</h3>
+                <div class="spanContacto__container_cv">
+                    <span id="span__celular">3814681773</span>
+                    <span id="span__correo">javiercastillo.tuc@gmail.com</span>
+                    <span id="span__domicilio">Saavedra 206</span>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="habilidades__container_cv">
+                <h3 class="tittle__habilidades_cv">HABILIDADES</h3>
+                <div class="spanHabilidades__container_cv">
+                    <span id="span__habilidad1">Liderazgo</span>
+                    <span id="span__habilidad2">Comunicacion asertiva</span>
+                    <span id="span__habilidad3">Gestion de activos</span>
+                    <span id="span__habilidad4">Resolucion de problemas</span>
+                    <span id="span__habilidad5">Elaboracion de reportes</span>
+                    <span id="span__habilidad6">Trabajo en equipo</span>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="espacio__vacio_container"></div>
+
+        </div>
+
+        <div class="franja__blanca_container">
+
+            <div class="dp__container_cv">
+                <div class="nombreYapellido__container_cv">
+                    <span id="span__nombre">Javier </span>
+                    <span id="span__apellido"> Castillo</span>
+                </div>
+                <span id="span__edad">24 años</span>
+            </div>
+
+            <div class="acercaDeMi__container_cv">
+                <h3 class="tittle__adm">Acerca de Mi</h3>
+                <p id="paragraph__adm">Me considero una persona proactiva y responsable, con buenas relaciones interpersonales. Busco un puesto que me desafíe a continuar creciendo personal y profesionalmente.</p>
+            </div>
+
+            <div class="hr__container">
+                <hr class="hr__adm">
+            </div>
+
+            <div id="experienciaLaboral__container_cv">
+
+                
+
+                <div class="span__empresa_container">
+                    <br>
+                    <span id="span__empresa1"></span>
+                    <span id="span__cargo1"></span>
+
+                    <div class="años__container">
+                        <span id="span__añoInicio1"></span>
+                        
+                        <span id="span__añoFin1"></span>
+                    </div>
+                </div>
+
+                <div class="span__empresa_container">
+                    <br>
+                    <span id="span__empresa2"></span>
+                    <span id="span__cargo2"></span>
+
+                    <div class="años__container">
+                        <span id="span__añoInicio2"></span>
+                        
+                        <span id="span__añoFin2"></span>
+                    </div>
+                </div>
+
+                <div class="span__empresa_container">
+                    <br>
+                    <span id="span__empresa3"></span>
+                    <span id="span__cargo3"></span>
+
+                    <div class="años__container">
+                        <span id="span__añoInicio3"></span>
+                        
+                        <span id="span__añoFin3"></span>
+                    </div>
+                </div>
+
+                <div class="span__empresa_container">
+                    <br>
+                    <span id="span__empresa4"></span>
+                    <span id="span__cargo4"></span>
+
+                    <div class="años__container">
+                        <span id="span__añoInicio4"></span>
+                        
+                        <span id="span__añoFin4"></span>
+                    </div>
+                </div>
+
+                <h3 class="tittle__experienciaLaboral" >Experiencia Laboral</h3>
+
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <div id="button__container">
+        <button id="descargar">Descargar PDF</button>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
